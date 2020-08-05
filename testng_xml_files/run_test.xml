@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Run_all_tests" >
+
+    <test name="CreateUserTest" preserve-order="true">
+        <classes>
+            <class name="usersTests.CreateUserTest" />
+        </classes>
+    </test>
+
+</suite>
